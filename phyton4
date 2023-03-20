@@ -1,0 +1,4 @@
+# escribir un programa que pregunte al usuario su edad y muestre por pantalla todos los años que ha cumplido (desde 1 hasra su edad)
+edad = int(input("Ingresa tu edad "))
+for i in range(edad):
+    print( str(i+1))
