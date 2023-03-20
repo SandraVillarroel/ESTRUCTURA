@@ -1,0 +1,10 @@
+# programa que almacene la cadena de caracteres contraseña en una variable,
+# pregunte al usuario por la contraseña e imprima por la panattla si la contraseña introducida coincide
+# con la guardada en la variable sin tener en ceunta mayuscula y minuscula
+
+contra = "sandrita"
+CONTRASEÑA = input("Introduce la contraseña: ")
+if contra == CONTRASEÑA.lower():
+    print("La contaseña coincide")
+else:
+    print("La contraseña no coincide") 
